@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* width: 1000px;
+  height: 800px; */
+  background-color: rgb(211, 213, 213);
+}
+
+#navbarMonstera {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  margin: 67px 0px 0px 317.5px;
+  font-family: sans-serif;
+
+  width: 900px;
+
+  position: absolute;
+  top: 8%;
+  z-index: 2;
+}
+/* */
+img[src="./photos/Logo.svg"] {
+  margin-left: 10px;
+  width: 80px;
+}
+
+#navMid {
+  display: flex;
+  column-gap: 50px;
+  font-size: 13px;
+}
+
+#navMid div:nth-child(1) {
+  border-bottom: 2px solid black;
+}
+
+#navEnd {
+  display: flex;
+  column-gap: 20px;
+}
+
+#navEnd img[src="/photos/cart.svg"] {
+  width: 11px;
+}
+#navEnd img[src="./photos/user.svg"] {
+  width: 12px;
+}
+#navEnd img[src="./photos/search.svg"] {
+  width: 12px;
+}
+
+#midWhole {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 550px;
+  overflow: hidden;
+}
+
+#midWholePart1 {
+  margin-left: 65px;
+}
+
+#midWholePart11 {
+  margin-top: 175px;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+#midWholePart11 > div li {
+  margin-bottom: 2.5px;
+}
+
+#monstera {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  margin-bottom: -25px;
+}
+
+ul > li {
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+li:nth-child(3) {
+  color: black;
+  width: 400px;
+}
+
+li:nth-child(4) {
+  color: black;
+  width: 400px;
+  line-height: 17px;
+}
+
+#midWholePart12 {
+  display: inline-block;
+  font-family: "Allerta";
+  font-style: normal;
+
+  color: #fff;
+  background-color: rgb(39, 89, 39);
+  padding: 8px 16px;
+  border-radius: 25px;
+  margin-top: 40px;
+}
+#midWholePart121 {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  font-size: 10px;
+}
+
+#midWholePart122 > img[src="./photos/greaterThan.svg"] {
+  margin-top: 4px;
+  margin-left: 10px;
+  width: 10px;
+}
+
+#midWholePart13 {
+  display: flex;
+
+  column-gap: 10px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.midWholePart13Parts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.midWholePart13Parts div h4 {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+#feeding {
+  width: 50px;
+}
+
+#light {
+  width: 23px;
+}
+
+#care {
+  width: 35px;
+}
+
+.text {
+  font-size: 8px;
+  font-family: sans-serif;
+  width: 130px;
+  color: rgb(132, 130, 130);
+}
+
+#imgMain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(34%, -40%);
+  width: 350px;
+}
