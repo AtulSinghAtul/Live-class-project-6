@@ -1,6 +1,6 @@
 # Project-6
 
-- ## [Live Link](https://ineuron-live-class-project-6.netlify.app/ "Netlify")
+- ## [Project Live Link](https://ineuron-live-class-project-6.netlify.app/ "Netlify")
 > ### Social Media Links:
 
 - ### [Portfolio Website Link](https://www.findcoder.io/u/atulsinghatul)
